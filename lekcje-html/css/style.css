@@ -1,0 +1,23 @@
+li {
+    color: red;
+}
+
+a {
+    color: red;
+}
+
+#main-title {
+    color: blue
+}
+
+li.active {
+    color: green;
+}
+
+* {
+    font-size: 16px
+}
+
+li, h1, p {
+    color: purple;
+}
