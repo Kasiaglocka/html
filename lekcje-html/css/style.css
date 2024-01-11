@@ -1,23 +1,8 @@
-li {
-    color: red;
+h1 {
+    color: #84f0f0;
+    background-color: #757878;
 }
 
-a {
-    color: red;
-}
-
-#main-title {
-    color: blue
-}
-
-li.active {
-    color: green;
-}
-
-* {
-    font-size: 16px
-}
-
-li, h1, p {
-    color: purple;
+#description {
+    background-color: #e6e6e6;
 }
