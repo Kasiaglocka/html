@@ -12,5 +12,8 @@ h1 {
 }
 
 body {
-    background-image: url("../img/background.png");
+    background-image: url("https://cdn.pixabay.com/photo/2023/12/28/23/19/ai-generated-8475136_1280.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
