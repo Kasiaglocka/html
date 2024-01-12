@@ -12,8 +12,17 @@ h1 {
 }
 
 body {
-    background-image: url("https://cdn.pixabay.com/photo/2023/12/28/23/19/ai-generated-8475136_1280.png");
+    background-image: url("../img/background.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top right;
     background-size: cover;
+    
 }
+
+#description {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs2Cj1NWViO85VkxjMm-EZseonixXP9XCPEQ&usqp=CAU");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}   
