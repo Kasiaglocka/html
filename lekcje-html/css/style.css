@@ -2,10 +2,16 @@ h1 {
     color: #84f0f0;
     background-color: #757878;
     border: 9px dashed blueviolet;
+    text-align: center;
+}
+
+.desc {
+    text-align: right;
 }
 
 h2 {
     border-bottom: 1px solid red;
+    text-align: right;
 }
 
 #description {
