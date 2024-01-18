@@ -32,6 +32,7 @@ a {
 
 .menu-link{
     margin-top: 40px;
+    list-style-type: none;
 }
 
 #description {
