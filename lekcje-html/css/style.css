@@ -29,10 +29,14 @@ a {
     transition: 0.3;
     border-radius: 20%;
 } 
+.menu-link:hover {
+    display: none;
+}
 
 .menu-link{
     margin-top: 40px;
     list-style-type: none;
+    display: block;
 }
 
 #description {
