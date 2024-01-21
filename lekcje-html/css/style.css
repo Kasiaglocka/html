@@ -6,6 +6,10 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+header{
+    margin-bottom: 40px;
+}
+
 .desc {
     text-align: right;
 }
@@ -33,10 +37,16 @@ a {
     display: none;
 }
 
+#hero{
+    text-align: center;
+}
+
 .menu-link{
     margin-top: 40px;
     list-style-type: none;
     display: block;
+    display: inline;
+    margin: 20px;
 }
 
 #description {
