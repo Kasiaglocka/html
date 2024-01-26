@@ -135,21 +135,21 @@ body
 	padding: 30px;
 }
 
-.yt
+.in
 {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
-	background-color: #d94348;
+	background-color: #0a66c2;
 	float: left;
 	font-size: 76px;
 	padding-top: 20px;
 	box-sizing: border-box;  
 }
 
-.yt:hover
+.in:hover
 {
-	background-color: #c83238;
+	background-color: #0a55b1;
 }
 
 .fb
@@ -169,21 +169,21 @@ body
 	background-color: #3557a2;
 }	
 
-.gplus
+.git
 {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
-	background-color: #d95333;
+	background-color: #000000;
 	float: left;
 	font-size: 76px;
 	padding-top: 20px;
 	box-sizing: border-box;  
 }
 
-.gplus:hover
+.git:hover
 {
-	background-color: #c84222;
+	background-color: #222222;
 }
 
 .tw
