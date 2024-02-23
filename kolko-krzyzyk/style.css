@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.kwadrat {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    margin:10px;
+    float: left;
+}
+
+.kwadrat:hover {
+    background-color: rgb(208, 212, 212);
+}
+
+#aktualnyGracz {
+    font-size: 80px;
+    text-align: center;
+}
+
+#restart {
+    font-size: 60px;
+    text-align: center;
+    margin: 5px;
+}
