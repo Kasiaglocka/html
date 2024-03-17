@@ -5,11 +5,21 @@ for (let poleGry of pola) {
     poleGry.addEventListener('click', function(event) { 
         console.log(event)
         const kliknietePole = event.target
-        kliknietePole.innerText = "O"
-    
+        const polePrzedstawiajaceJakiZnakJestAktualny = document.getElementById("aktualnyGracz")
+        const aktualnyZnak = polePrzedstawiajaceJakiZnakJestAktualny.innerText
+        kliknietePole.innerText = aktualnyZnak
+        zmianaZnaku()
      });
 }
 
+function zmianaZnaku() {
+    const polePrzedstawiajaceJakiZnakJestAktualny = document.getElementById("aktualnyGracz")
+    if (polePrzedstawiajaceJakiZnakJestAktualny.innerText == "O"){
+        polePrzedstawiajaceJakiZnakJestAktualny.innerText = "X"
+    }else{
+        polePrzedstawiajaceJakiZnakJestAktualny.innerText = "O"
+    }
+}
 
 
 
