@@ -5,7 +5,17 @@ let licznikRuchow = 1
 const restartButton = document.getElementById("restart")
 
 restartButton.addEventListener('click', function () {
-    location.reload();
+    //location.reload();
+    licznikRuchow = 1;
+    const polePrzedstawiajaceJakiZnakJestAktualny = document.getElementById("aktualnyGracz")
+    polePrzedstawiajaceJakiZnakJestAktualny.innerText = "O"
+    for (let poleGry of pola) {
+        poleGry.innerText = ""
+    }
+
+
+
+
 })
 
 for (let poleGry of pola) {
