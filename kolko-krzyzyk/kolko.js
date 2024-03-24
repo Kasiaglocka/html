@@ -2,6 +2,11 @@ const pole1 = document.getElementById("1")
 const pola = document.getElementsByClassName("kwadrat")
 let czyRozstrzygniete = false
 let licznikRuchow = 1
+const restartButton = document.getElementById("restart")
+
+restartButton.addEventListener('click', function () {
+    location.reload();
+})
 
 for (let poleGry of pola) {
     poleGry.addEventListener('click', function(event) { 
